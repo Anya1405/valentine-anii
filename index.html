@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine 💖</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Collage background -->
+  <div id="collageBg" class="collage-bg" aria-hidden="true"></div>
+  <div id="darkBg" class="dark-bg" aria-hidden="true"></div>
+
+  <!-- Cover Page -->
+  <div id="cover-page" class="cover-page">
+    <div class="cover-left"></div>
+    <div class="cover-right"></div>
+    <div class="heart" onclick="openCard()">❤️</div>
+  </div>
+
+  <div class="container">
+
+    <!-- PAGE 1 -->
+    <div class="section active" id="page1">
+      <h2>Will you be my Valentine? 💘</h2>
+      <p>Let’s go to Boisar or Mumbai for a cute day out?</p>
+
+      <div class="button-container">
+        <button onclick="nextPage()">
+          <span class="emoji">💖</span>
+          <span>Yes</span>
+        </button>
+
+        <button onclick="playMusic()">
+          <span class="emoji">🎵</span>
+          <span>Play Background Music</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="section" id="page2">
+      <h2>Why Me?</h2>
+
+      <div class="grid">
+        <div class="hover-box">
+          <span class="emoji">💙</span><br>Reason 1<br><span>Write your line here</span>
+          <img src="assets/images/pic1.jpg" class="hover-media hover-image" alt="Image 1">
+        </div>
+
+        <div class="hover-box">
+          <span class="emoji">🎵</span><br>Reason 2<br><span>Write your line here</span>
+          <video class="hover-media hover-video" src="assets/videos/video1.mp4" muted loop playsinline preload="metadata"></video>
+        </div>
+
+        <div class="hover-box">
+          <span class="emoji">😜</span><br>Reason 3<br><span>Write your line here</span>
+          <video class="hover-media hover-video" src="assets/videos/Dance.mp4" muted loop playsinline preload="metadata"></video>
+        </div>
+
+        <div class="hover-box">
+          <span class="emoji">💖</span><br>Reason 4<br><span>Write your line here</span>
+          <img src="assets/images/pic2.jpg" class="hover-media hover-image" alt="Image 2">
+        </div>
+      </div>
+
+      <button onclick="nextPage()">Let’s Make Memories ✨</button>
+    </div>
+
+    <!-- PAGE 3 -->
+    <div class="section" id="page3">
+      <h2>Why Only You?</h2>
+
+      <div class="grid">
+        <div class="hover-box">
+          <span class="emoji">☀️</span><br>Reason 1<br><span>Write your line here</span>
+          <img src="assets/images/pic3.jpg" class="hover-media hover-image" alt="Image 3">
+        </div>
+
+        <div class="hover-box">
+          <span class="emoji">😂</span><br>Reason 2<br><span>Write your line here</span>
+          <img src="assets/images/pic4.jpg" class="hover-media hover-image" alt="Image 4">
+        </div>
+
+        <div class="hover-box">
+          <span class="emoji">🎶</span><br>Reason 3<br><span>Write your line here</span>
+          <video class="hover-media hover-video" src="assets/videos/video2.mov" muted loop playsinline preload="metadata"></video>
+        </div>
+
+        <div class="hover-box">
+          <span class="emoji">🥰</span><br>Reason 4<br><span>Write your line here</span>
+          <img src="assets/images/pic7.jpeg" class="hover-media hover-image" alt="Image 7">
+        </div>
+
+        <div class="hover-box">
+          <span class="emoji">✨</span><br>Reason 5<br><span>Write your line here</span>
+          <img src="assets/images/pic5.png" class="hover-media hover-image" alt="Image 5">
+        </div>
+
+        <div class="hover-box">
+          <span class="emoji">🌟</span><br>Reason 6<br><span>Write your line here</span>
+          <video class="hover-media hover-video" src="assets/videos/video3.mp4" muted loop playsinline preload="metadata"></video>
+        </div>
+      </div>
+
+      <button onclick="nextPage()">I’m Ready 🥰</button>
+    </div>
+
+    <!-- PAGE 4 -->
+    <div class="section" id="page4">
+      <h2>Let’s Make Memories</h2>
+      <p>Plan: Temple + vadapav + photos + movie + dinner 💖</p>
+      <button onclick="nextPage()">Next ➜</button>
+    </div>
+
+    <!-- PAGE 5 -->
+    <div class="section" id="page5">
+      <section class="story">
+        <h2>📖 Our Story</h2>
+
+        <div class="timeline">
+          <div class="hover-box">
+            <span class="emoji">💌</span><br>
+            <h3>We talked</h3>
+            <p>Write your line here</p>
+            <video class="hover-media hover-video" src="assets/videos/video4.mp4" muted loop playsinline preload="metadata"></video>
+          </div>
+
+          <div class="story-line"></div>
+
+          <div class="hover-box">
+            <span class="emoji">☀️</span><br>
+            <h3>Then you happened</h3>
+            <p>Write your line here</p>
+            <img src="assets/images/pic8.jpeg" class="hover-media hover-image" alt="Image 8">
+          </div>
+
+          <div class="story-line"></div>
+
+          <div class="hover-box">
+            <span class="emoji">🎵</span><br>
+            <h3>Music taste</h3>
+            <p>Write your line here</p>
+            <video class="hover-media hover-video" src="assets/videos/video5.mp4" muted loop playsinline preload="metadata"></video>
+          </div>
+
+          <div class="story-line"></div>
+
+          <div class="hover-box">
+            <span class="emoji">✨</span><br>
+            <h3>To be continued…</h3>
+            <p>Write your line here</p>
+            <img src="assets/images/pic9.jpg" class="hover-media hover-image" alt="Image 9">
+          </div>
+        </div>
+
+        <button onclick="nextPage()">I have dedicated some songs for you 🎵</button>
+      </section>
+    </div>
+
+    <!-- PAGE 6 -->
+    <div class="section" id="page6">
+      <section class="songs">
+        <h2>🎵 Songs</h2>
+
+        <div class="song-container">
+          <div class="song-box">
+            <h3>Agar Tum Saath Ho</h3>
+            <button class="play-btn" onclick="playagartumsathho()">🎵 Play</button>
+            <video class="background-video" src="assets/videos/video6.mp4" autoplay muted loop playsinline></video>
+          </div>
+
+          <div class="song-box">
+            <h3>Tum Se Hi</h3>
+            <button class="play-btn" onclick="playTumSeHi()">🎵 Play</button>
+          </div>
+
+          <div class="song-box">
+            <h3>Fav Song 💗</h3>
+
+            <button class="play-btn" onclick="playSarthakFavouriteSong(event)">🎵 Play Fav</button>
+
+            <audio controls preload="metadata" style="width:100%; margin-top:12px;">
+              <source src="assets/audio/vai.mp3" type="audio/mpeg" />
+            </audio>
+
+            <video class="background-video" src="assets/videos/video7.mp4" autoplay muted loop playsinline></video>
+          </div>
+        </div>
+
+        <button onclick="nextPage()">Next ➜</button>
+      </section>
+    </div>
+
+    <!-- PAGE 7 -->
+    <div class="section" id="page7">
+      <h2>THANKS FOR SAYING YES 💖</h2>
+      <p>I LOVE YOU A LOT 🥰</p>
+      <button onclick="restart()">Restart</button>
+    </div>
+
+    <!-- Audio elements -->
+    <audio id="background-music" src="assets/audio/music.mp3"></audio>
+    <audio id="sarthak-favourite-song" src="assets/audio/vai.mp3"></audio>
+    <audio id="tum-se-hi" src="assets/audio/music2.mp3"></audio>
+    <audio id="agar-tum-sath-ho" src="assets/audio/music3.mp3"></audio>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
